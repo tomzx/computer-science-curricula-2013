@@ -1,0 +1,2185 @@
+AL/Basic Analysis
+[2 Core-Tier1 hours, 2 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Differences among best, expected, and worst case behaviors of an algorithm
+- [ ] Asymptotic analysis of upper and expected complexity bounds
+- [ ] Big O notation: formal definition
+- [ ] Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential
+- [ ] Empirical measurements of performance
+- [ ] Time and space trade-offs in algorithms
+[Core-Tier2]
+- [ ] Big O notation: use
+- [ ] Little o, big omega and big theta notation
+- [ ] Recurrence relations
+- [ ] Analysis of iterative and recursive algorithms
+- [ ] Some version of a Master Theorem
+
+AL/Algorithmic Strategies
+[5 Core-Tier1 hours, 1 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Brute-force algorithms
+- [ ] Greedy algorithms
+- [ ] Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies)
+- [ ] Recursive backtracking
+- [ ] Dynamic Programming
+[Core-Tier2]
+- [ ] Branch-and-bound
+- [ ] Heuristics
+- [ ] Reduction: transform-and-conquer
+
+AL/Fundamental Data Structures and Algorithms
+[9 Core-Tier1 hours, 3 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max,
+and mode in a list, approximating the square root of a number, or finding the greatest common divisor
+- [ ] Sequential and binary search algorithms
+- [ ] Worst case quadratic sorting algorithms (selection, insertion)
+- [ ] Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)
+- [ ] Hash tables, including strategies for avoiding and resolving collisions
+- [ ] Binary search trees
+    - [ ] Common operations on binary search trees such as select min, max, insert, delete, iterate over tree
+- [ ] Graphs and graph algorithms
+    - [ ] Representations of graphs (e.g., adjacency list, adjacency matrix)
+    - [ ] Depth- and breadth-first traversals
+[Core-Tier2]
+- [ ] Heaps
+- [ ] Graphs and graph algorithms
+    - [ ] Shortest-path algorithms (Dijkstra’s and Floyd’s algorithms)
+    - [ ] Minimum spanning tree (Prim’s and Kruskal’s algorithms)
+- [ ] Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest
+common subsequence algorithms)
+
+AL/Basic Automata Computability and Complexity
+[3 Core-Tier1 hours, 3 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Finite-state machines
+- [ ] Regular expressions
+- [ ] The halting problem
+[Core-Tier2]
+- [ ] Context-free grammars (cross-reference PL/Syntax Analysis)
+- [ ] Introduction to the P and NP classes and the P vs. NP problem
+- [ ] Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)
+
+AL/Advanced Computational Complexity
+[Elective]
+- [ ] Review of the classes P and NP; introduce P-space and EXP
+- [ ] Polynomial hierarchy
+- [ ] NP-completeness (Cook’s theorem)
+- [ ] Classic NP-complete problems
+- [ ] Reduction Techniques
+
+AL/Advanced Automata Theory and Computability
+[Elective]
+- [ ] Sets and languages
+    - [ ] Regular languages
+    - [ ] Review of deterministic finite automata (DFAs)
+    - [ ] Nondeterministic finite automata (NFAs)
+    - [ ] Equivalence of DFAs and NFAs
+    - [ ] Review of regular expressions; their equivalence to finite automata
+    - [ ] Closure properties
+    - [ ] Proving languages non-regular, via the pumping lemma or alternative means
+- [ ] Context-free languages
+    - [ ] Push-down automata (PDAs)
+    - [ ] Relationship of PDAs and context-free grammars
+    - [ ] Properties of context-free languages
+- [ ] Turing machines, or an equivalent formal model of universal computation
+- [ ] Nondeterministic Turing machines
+- [ ] Chomsky hierarchy
+- [ ] The Church-Turing thesis
+- [ ] Computability
+- [ ] Rice’s Theorem
+- [ ] Examples of uncomputable functions
+- [ ] Implications of uncomputability
+
+AL/Advanced Data Structures Algorithms and Analysis
+[Elective]
+- [ ] Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)
+- [ ] Graphs (e.g., topological sort, finding strongly connected components, matching)
+- [ ] Advanced data structures (e.g., B-trees, Fibonacci heaps)
+- [ ] String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)
+- [ ] Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite
+matching)
+- [ ] Linear Programming (e.g., duality, simplex method, interior point algorithms)
+- [ ] Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)
+- [ ] Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull,
+spatial decomposition, collision detection, geometric search/proximity)
+- [ ] Randomized algorithms
+- [ ] Stochastic algorithms
+- [ ] Approximation algorithms
+- [ ] Amortized analysis
+- [ ] Probabilistic analysis
+- [ ] Online algorithms and competitive analysis
+
+AR/Digital Logic and Digital Systems
+[3 Core-Tier2 hours]
+- [ ] Overview and history of computer architecture
+- [ ] Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational +
+sequential logic building block
+- [ ] Multiple representations/layers of interpretation (hardware is just another layer)
+- [ ] Computer-aided design tools that process hardware and architectural representations
+- [ ] Register transfer notation/Hardware Description Language (Verilog/VHDL)
+- [ ] Physical constraints (gate delays, fan-in, fan-out, energy/power)
+
+AR/Machine Level Representation of Data
+[3 Core-Tier2 hours]
+- [ ] Bits, bytes, and words
+- [ ] Numeric data representation and number bases
+- [ ] Fixed- and floating-point systems
+- [ ] Signed and twos-complement representations
+- [ ] Representation of non-numeric data (character codes, graphical data)
+- [ ] Representation of records and arrays
+
+AR/Assembly Level Machine Organization
+[6 Core-Tier2 hours]
+- [ ] Basic organization of the von Neumann machine
+- [ ] Control unit; instruction fetch, decode, and execution
+- [ ] Instruction sets and types (data manipulation, control, I/O)
+- [ ] Assembly/machine language programming
+- [ ] Instruction formats
+- [ ] Addressing modes
+- [ ] Subroutine call and return mechanisms (cross-reference PL/Language Translation and Execution)
+- [ ] I/O and interrupts
+- [ ] Heap vs. Static vs. Stack vs. Code segments
+- [ ] Shared memory multiprocessors/multicore organization
+- [ ] Introduction to SIMD vs. MIMD and the Flynn Taxonomy
+
+AR/Memory System Organization and Architecture
+[3 Core-Tier2 hours]
+- [ ] Storage systems and their technology
+- [ ] Memory hierarchy: importance of temporal and spatial locality
+- [ ] Main memory organization and operations
+- [ ] Latency, cycle time, bandwidth, and interleaving
+- [ ] Cache memories (address mapping, block size, replacement and store policy)
+- [ ] Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory
+operations
+- [ ] Virtual memory (page table, TLB)
+- [ ] Fault handling and reliability
+- [ ] Error coding, data compression, and data integrity (cross-reference SF/Reliability through Redundancy)
+
+AR/Interfacing and Communication
+[1 Core-Tier2 hour]
+- [ ] I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O
+- [ ] Interrupt structures: vectored and prioritized, interrupt acknowledgment
+- [ ] External storage, physical organization, and drives
+- [ ] Buses: bus protocols, arbitration, direct-memory access (DMA)
+- [ ] Introduction to networks: communications networks as another layer of remote access
+- [ ] Multimedia support
+- [ ] RAID architectures
+
+AR/Functional Organization
+[Elective]
+- [ ] Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution
+- [ ] Control unit: hardwired realization vs. microprogrammed realization
+- [ ] Instruction pipelining
+- [ ] Introduction to instruction-level parallelism (ILP)
+
+AR/Multiprocessing and Alternative Architectures
+[Elective]
+- [ ] Power Law
+- [ ] Example SIMD and MIMD instruction sets and architectures
+- [ ] Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)
+- [ ] Shared multiprocessor memory systems and memory consistency
+- [ ] Multiprocessor cache coherence
+
+AR/Performance Enhancements
+[Elective]
+- [ ] Superscalar architecture
+- [ ] Branch prediction, Speculative execution, Out-of-order execution
+- [ ] Prefetching
+- [ ] Vector processors and GPUs
+- [ ] Hardware support for multithreading
+- [ ] Scalability
+- [ ] Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose
+Processors
+
+CN/Introduction to Modeling and Simulation
+[1 Core-Tier1 hours]
+- [ ] Models as abstractions of situations
+- [ ] Simulations as dynamic modeling
+- [ ] Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and
+virtual reality
+- [ ] Foundational approaches to validating models (e.g., comparing a simulation’s output to real data or the
+output of another model)
+- [ ] Presentation of results in a form relevant to the system being modeled
+
+CN/Modeling and Simulation
+[Elective]
+- [ ] Purpose of modeling and simulation including optimization; supporting decision making, forecasting,
+safety considerations; for training and education
+- [ ] Tradeoffs including performance, accuracy, validity, and complexity
+- [ ] The simulation process; identification of key characteristics or behaviors, simplifying assumptions;
+validation of outcomes
+- [ ] Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and
+techniques; use of time stepping for dynamic systems
+- [ ] Formal models and modeling techniques: mathematical descriptions involving simplifying assumptions
+and avoiding detail. Examples of techniques include:
+    - [ ] Monte Carlo methods
+    - [ ] Stochastic processes
+    - [ ] Queuing theory
+    - [ ] Petri nets and colored Petri nets
+    - [ ] Graph structures such as directed graphs, trees, networks
+    - [ ] Games, game theory, the modeling of things using game theory
+    - [ ] Linear programming and its extensions
+    - [ ] Dynamic programming
+    - [ ] Differential equations: ODE, PDE
+    - [ ] Non-linear techniques
+    - [ ] State spaces and transitions
+- [ ] Assessing and evaluating models and simulations in a variety of contexts; verification and validation of
+models and simulations
+- [ ] Important application areas including health care and diagnostics, economics and finance, city and urban
+planning, science, and engineering
+- [ ] Software in support of simulation and modeling; packages, languages
+
+CN/Processing
+[Elective]
+- [ ] Fundamental programming concepts:
+    - [ ] The concept of an algorithm consisting of a finite number of well-defined steps, each of which
+completes in a finite amount of time, as does the entire process.
+    - [ ] Examples of well-known algorithms such as sorting and searching.
+    - [ ] The concept of analysis as understanding what the problem is really asking, how a problem can be
+approached using an algorithm, and how information is represented so that a machine can process
+it.
+    - [ ] The development or identification of a workflow.
+    - [ ] The process of converting an algorithm to machine-executable code.
+    - [ ] Software processes including lifecycle models, requirements, design, implementation, verification
+and maintenance.
+    - [ ] Machine representation of data computer arithmetic.
+- [ ] Numerical methods
+    - [ ] Algorithms for numerically fitting data (e.g., Newton’s method)
+    - [ ] Architectures for numerical computation, including parallel architectures
+- [ ] Fundamental properties of parallel and distributed computation:
+    - [ ] Bandwidth.
+    - [ ] Latency.
+    - [ ] Scalability.
+    - [ ] Granularity.
+    - [ ] Parallelism including task, data, and event parallelism.
+    - [ ] Parallel architectures including processor architectures, memory and caching.
+    - [ ] Parallel programming paradigms including threading, message passing, event driven techniques,
+parallel software architectures, and MapReduce.
+    - [ ] Grid computing.
+    - [ ] The impact of architecture on computational time.
+    - [ ] Total time to science curve for parallelism: continuum of things.
+- [ ] Computing costs, e.g., the cost of re-computing a value vs. the cost of storing and lookup.
+
+CN/Interactive Visualization
+[Elective]
+- [ ] Principles of data visualization
+- [ ] Graphing and visualization algorithms
+- [ ] Image processing techniques
+- [ ] Scalability concerns
+
+CN/Data, Information, and Knowledge
+[Elective]
+- [ ] Content management models, frameworks, systems, design methods (as in IM. Information Management)
+- [ ] Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g.,
+QuickTime, MPEG2, MPEG4), audio (e.g., written score, MIDI, sampled digitized sound track) and
+animations; complex/composite/aggregate objects; FRBR
+- [ ] Digital content creation/capture and preservation, including digitization, sampling, compression,
+conversion, transformation/translation, migration/emulation, crawling, harvesting
+- [ ] Content structure / management, including digital libraries and static/dynamic/stream aspects for:
+    - [ ] Data: data structures, databases
+    - [ ] Information: document collections, multimedia pools, hyperbases (hypertext, hypermedia),
+catalogs, repositories
+    - [ ] Knowledge: ontologies, triple stores, semantic networks, rules
+- [ ] Processing and pattern recognition, including indexing, searching (including: queries and query languages;
+central / federated / P2P), retrieving, clustering, classifying/categorizing, analyzing/mining/extracting,
+rendering, reporting, handling transactions
+- [ ] User / society support for presentation and interaction, including browse, search, filter, route, visualize,
+share, collaborate, rate, annotate, personalize, recommend
+- [ ] Modeling, design, logical and physical implementation, using relevant systems/software
+
+CN/Numerical Analysis
+[Elective]
+- [ ] Error, stability, convergence, including truncation and round-off
+- [ ] Function approximation including Taylor’s series, interpolation, extrapolation, and regression
+- [ ] Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods)
+- [ ] Differential equations (Euler’s Method, finite differences)
+
+DS/Sets, Relations, and Functions
+[4 Core-Tier1 hours]
+- [ ] Sets
+    - [ ] Venn diagrams
+    - [ ] Union, intersection, complement
+    - [ ] Cartesian product
+    - [ ] Power sets
+    - [ ] Cardinality of finite sets
+- [ ] Relations
+    - [ ] Reflexivity, symmetry, transitivity
+    - [ ] Equivalence relations, partial orders
+- [ ] Functions
+    - [ ] Surjections, injections, bijections
+    - [ ] Inverses
+    - [ ] Composition
+
+DS/Basic Logic
+[9 Core-Tier1 hours]
+- [ ] Propositional logic (cross-reference: Propositional logic is also reviewed in IS/Knowledge Based
+Reasoning)
+- [ ] Logical connectives
+- [ ] Truth tables
+- [ ] Normal forms (conjunctive and disjunctive)
+- [ ] Validity of well-formed formula
+- [ ] Propositional inference rules (concepts of modus ponens and modus tollens)
+- [ ] Predicate logic
+    - [ ] Universal and existential quantification
+- [ ] Limitations of propositional and predicate logic (e.g., expressiveness issues)
+
+DS/Proof Techniques
+[10 Core-Tier1 hours, 1 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction
+- [ ] The structure of mathematical proofs
+- [ ] Direct proofs
+- [ ] Disproving by counterexample
+- [ ] Proof by contradiction
+- [ ] Induction over natural numbers
+- [ ] Structural induction
+- [ ] Weak and strong induction (i.e., First and Second Principle of Induction)
+- [ ] Recursive mathematical definitions
+[Core-Tier2]
+- [ ] Well orderings
+
+DS/Basics of Counting
+[5 Core-Tier1 hours]
+- [ ] Counting arguments
+    - [ ] Set cardinality and counting
+    - [ ] Sum and product rule
+    - [ ] Inclusion-exclusion principle
+    - [ ] Arithmetic and geometric progressions
+- [ ] The pigeonhole principle
+- [ ] Permutations and combinations
+    - [ ] Basic definitions
+    - [ ] Pascal’s identity
+    - [ ] The binomial theorem
+- [ ] Solving recurrence relations (cross-reference: AL/Basic Analysis)
+    - [ ] An example of a simple recurrence relation, such as Fibonacci numbers
+    - [ ] Other examples, showing a variety of solutions
+- [ ] Basic modular arithmetic
+
+DS/Graphs and Trees
+[3 Core-Tier1 hours, 1 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Trees
+    - [ ] Properties
+    - [ ] Traversal strategies
+- [ ] Undirected graphs
+- [ ] Directed graphs
+- [ ] Weighted graphs
+[Core-Tier2]
+- [ ] Spanning trees/forests
+- [ ] Graph isomorphism
+
+DS/Discrete Probability
+[6 Core-Tier1 hours, 2 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Finite probability space, events
+- [ ] Axioms of probability and probability measures
+- [ ] Conditional probability, Bayes’ theorem
+- [ ] Independence
+- [ ] Integer random variables (Bernoulli, binomial)
+- [ ] Expectation, including Linearity of Expectation
+[Core-Tier2]
+- [ ] Variance
+- [ ] Conditional Independence
+
+GV/Fundamental Concepts
+[2 Core-Tier1 and 1 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Media applications including user interfaces, audio and video editing, game engines, cad, visualization,
+virtual reality
+- [ ] Digitization of analog data, resolution, and the limits of human perception, e.g., pixels for visual display,
+dots for laser printers, and samples for audio (HCI/Foundations)
+- [ ] Use of standard APIs for the construction of UIs and display of standard media formats (see HCI/GUI
+construction)
+- [ ] Standard media formats, including lossless and lossy formats
+[Core-Tier2]
+- [ ] Additive and subtractive color models (CMYK and RGB) and why these provide a range of colors
+- [ ] Tradeoffs between storing data and re-computing data as embodied by vector and raster representations of
+images
+- [ ] Animation as a sequence of still images
+[Elective]
+- [ ] Double buffering
+
+GV/Basic Rendering
+[Elective]
+- [ ] Rendering in nature, e.g., the emission and scattering of light and its relation to numerical integration
+- [ ] Forward and backward rendering (i.e., ray-casting and rasterization)
+- [ ] Polygonal representation
+- [ ] Basic radiometry, similar triangles, and projection model
+- [ ] Affine and coordinate system transformations
+- [ ] Ray tracing
+- [ ] Visibility and occlusion, including solutions to this problem such as depth buffering, Painter’s algorithm,
+and ray tracing
+- [ ] The forward and backward rendering equation
+- [ ] Simple triangle rasterization
+- [ ] Rendering with a shader-based API
+- [ ] Texture mapping, including minification and magnification (e.g., trilinear MIP-mapping)
+- [ ] Application of spatial data structures to rendering
+- [ ] Sampling and anti-aliasing
+- [ ] Scene graphs and the graphics pipeline
+
+GV/Geometric Modeling
+[Elective]
+- [ ] Basic geometric operations such as intersection calculation and proximity tests
+- [ ] Volumes, voxels, and point-based representations
+- [ ] Parametric polynomial curves and surfaces
+- [ ] Implicit representation of curves and surfaces
+- [ ] Approximation techniques such as polynomial curves, Bezier curves, spline curves and surfaces, and nonuniform rational basis (NURB) spines, and level set method
+- [ ] Surface representation techniques including tessellation, mesh representation, mesh fairing, and mesh
+generation techniques such as Delaunay triangulation, marching cubes
+- [ ] Spatial subdivision techniques
+- [ ] Procedural models such as fractals, generative modeling, and L-systems
+- [ ] Graftals, cross referenced with programming languages (grammars to generated pictures)
+- [ ] Elastically deformable and freeform deformable models
+- [ ] Subdivision surfaces
+- [ ] Multiresolution modeling
+- [ ] Reconstruction
+- [ ] Constructive Solid Geometry (CSG) representation
+
+GV/Advanced Rendering
+[Elective]
+- [ ] Solutions and approximations to the rendering equation, for example:
+    - [ ] Distribution ray tracing and path tracing
+    - [ ] Photon mapping
+    - [ ] Bidirectional path tracing
+    - [ ] Reyes (micropolygon) rendering
+    - [ ] Metropolis light transport
+- [ ] Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering
+- [ ] Shadow mapping
+- [ ] Occlusion culling
+- [ ] Bidirectional Scattering Distribution function (BSDF) theory and microfacets
+- [ ] Subsurface scattering
+- [ ] Area light sources
+- [ ] Hierarchical depth buffering
+- [ ] The Light Field, image-based rendering
+- [ ] Non-photorealistic rendering
+- [ ] GPU architecture
+- [ ] Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion
+
+GV/Computer Animation
+[Elective]
+- [ ] Forward and inverse kinematics
+- [ ] Collision detection and response
+- [ ] Procedural animation using noise, rules (boids/crowds), and particle systems
+- [ ] Skinning algorithms
+- [ ] Physics based motions including rigid body dynamics, physical particle systems, mass-spring networks for
+cloth and flesh and hair
+- [ ] Key-frame animation
+- [ ] Splines
+- [ ] Data structures for rotations, such as quaternions
+- [ ] Camera animation
+- [ ] Motion capture
+
+GV/Visualization
+[Elective]
+- [ ] Visualization of 2D/3D scalar fields: color mapping, isosurfaces
+- [ ] Direct volume data rendering: ray-casting, transfer functions, segmentation
+- [ ] Visualization of:
+    - [ ] Vector fields and flow data
+    - [ ] Time-varying data
+    - [ ] High-dimensional data: dimension reduction, parallel coordinates,
+    - [ ] Non-spatial data: multi-variate, tree/graph structured, text
+- [ ] Perceptual and cognitive foundations that drive visual abstractions
+- [ ] Visualization design
+- [ ] Evaluation of visualization methods
+- [ ] Applications of visualization
+
+HCI/Foundations
+[4 Core-Tier1 hours]
+- [ ] Contexts for HCI (anything with a user interface, e.g., webpage, business applications, mobile applications,
+and games)
+- [ ] Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design
+- [ ] Different measures for evaluation, e.g., utility, efficiency, learnability, user satisfaction
+- [ ] Usability heuristics and the principles of usability testing
+- [ ] Physical capabilities that inform interaction design, e.g., color perception, ergonomics
+- [ ] Cognitive models that inform interaction design, e.g., attention, perception and recognition, movement, and
+memory; gulfs of expectation and execution
+- [ ] Social models that inform interaction design, e.g., culture, communication, networks and organizations
+- [ ] Principles of good design and good designers; engineering tradeoffs
+- [ ] Accessibility, e.g., interfaces for differently-abled populations (e.g., blind, motion-impaired)
+- [ ] Interfaces for differently-aged population groups (e.g., children, 80+)
+
+HCI/Designing Interaction
+[4 Core-Tier2 hours]
+- [ ] Principles of graphical user interfaces (GUIs)
+- [ ] Elements of visual design (layout, color, fonts, labeling)
+- [ ] Task analysis, including qualitative aspects of generating task analytic models
+- [ ] Low-fidelity (paper) prototyping
+- [ ] Quantitative evaluation techniques, e.g., keystroke-level evaluation
+- [ ] Help and documentation
+- [ ] Handling human/system failure
+- [ ] User interface standards
+
+HCI/Programming Interactive Systems
+[Elective]
+- [ ] Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross
+reference PL/Event Driven and Reactive Programming, where MVC is used in the context of event-driven
+programming)
+- [ ] Interaction Design Patterns: visual hierarchy, navigational distance
+- [ ] Event management and user interaction
+- [ ] Geometry management (cross-reference GV/Geometric Modelling)
+- [ ] Choosing interaction styles and interaction techniques
+- [ ] Presenting information: navigation, representation, manipulation
+- [ ] Interface animation techniques (e.g., scene graphs)
+- [ ] Widget classes and libraries
+- [ ] Modern GUI libraries (e.g. iOS, Android, JavaFX) GUI builders and UI programming environments (crossreference PBD/Mobile Platforms)
+- [ ] Declarative Interface Specification: Stylesheets and DOMs
+- [ ] Data-driven applications (database-backed web pages)
+- [ ] Cross-platform design
+- [ ] Design for resource-constrained devices (e.g. small, mobile devices)
+
+HCI/User-Centered Design and Testing
+[Elective]
+- [ ] Approaches to, and characteristics of, the design process
+- [ ] Functionality and usability requirements (cross-reference to SE/Requirements Engineering)
+- [ ] Techniques for gathering requirements, e.g., interviews, surveys, ethnographic and contextual enquiry
+- [ ] Techniques and tools for the analysis and presentation of requirements, e.g., reports, personas
+- [ ] Prototyping techniques and tools, e.g., sketching, storyboards, low-fidelity prototyping, wireframes
+- [ ] Evaluation without users, using both qualitative and quantitative techniques, e.g., walkthroughs, GOMS,
+expert-based analysis, heuristics, guidelines, and standards
+- [ ] Evaluation with users, e.g., observation, think-aloud, interview, survey, experiment
+- [ ] Challenges to effective evaluation, e.g., sampling, generalization
+- [ ] Reporting the results of evaluations
+- [ ] Internationalization, designing for users from other cultures, cross-cultural
+
+HCI/New Interactive Technologies
+[Elective]
+- [ ] Choosing interaction styles and interaction techniques
+- [ ] Representing information to users: navigation, representation, manipulation
+- [ ] Approaches to design, implementation and evaluation of non-mouse interaction
+    - [ ] Touch and multi-touch interfaces
+    - [ ] Shared, embodied, and large interfaces
+    - [ ] New input modalities (such as sensor and location data)
+    - [ ] New Windows, e.g., iPhone, Android
+    - [ ] Speech recognition and natural language processing (cross reference IS/Natural Language
+Processing)
+    - [ ] Wearable and tangible interfaces
+    - [ ] Persuasive interaction and emotion
+    - [ ] Ubiquitous and context-aware interaction technologies (Ubicomp)
+    - [ ] Bayesian inference (e.g. predictive text, guided pointing)
+    - [ ] Ambient/peripheral display and interaction
+
+HCI/Collaboration and Communication
+[Elective]
+- [ ] Asynchronous group communication, e.g., e-mail, forums, social networks
+- [ ] Synchronous group communication, e.g., chat rooms, conferencing, online games
+- [ ] Social media, social computing, and social network analysis
+- [ ] Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies
+- [ ] Online communities
+- [ ] Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)
+- [ ] Social psychology
+
+HCI/Statistical Methods for HCI
+[Elective]
+- [ ] t-tests
+- [ ] ANOVA
+- [ ] Randomization (non-parametric) testing, within vs. between-subjects design
+- [ ] Calculating effect size
+- [ ] Exploratory data analysis
+- [ ] Presenting statistical data
+- [ ] Combining qualitative and quantitative results
+
+HCI/Human Factors and Security
+[Elective]
+- [ ] Applied psychology and security policies
+- [ ] Security economics
+- [ ] Regulatory environments – responsibility, liability and self-determination
+- [ ] Organizational vulnerabilities and threats
+- [ ] Usability design and security
+- [ ] Pretext, impersonation and fraud, e.g., phishing and spear phishing (cross-reference IAS/Threats and
+Attacks)
+- [ ] Trust, privacy and deception
+- [ ] Biometric authentication (camera, voice)
+- [ ] Identity management
+
+HCI/Design-Oriented HCI
+[Elective]
+- [ ] Intellectual styles and perspectives to technology and its interfaces
+- [ ] Consideration of HCI as a design discipline
+    - [ ] Sketching
+    - [ ] Participatory design
+- [ ] Critically reflective HCI
+    - [ ] Critical technical practice
+    - [ ] Technologies for political activism
+    - [ ] Philosophy of user experience
+    - [ ] Ethnography and ethnomethodology
+- [ ] Indicative domains of application
+    - [ ] Sustainability
+    - [ ] Arts-informed computing
+
+HCI/Mixed, Augmented and Virtual Reality
+[Elective]
+- [ ] Output
+    - [ ] Sound
+    - [ ] Stereoscopic display
+    - [ ] Force feedback simulation, haptic devices
+- [ ] User input
+    - [ ] Viewer and object tracking
+    - [ ] Pose and gesture recognition
+    - [ ] Accelerometers
+    - [ ] Fiducial markers
+    - [ ] User interface issues
+- [ ] Physical modelling and rendering
+    - [ ] Physical simulation: collision detection & response, animation
+    - [ ] Visibility computation
+    - [ ] Time-critical rendering, multiple levels of details (LOD)
+- [ ] System architectures
+    - [ ] Game engines
+    - [ ] Mobile augmented reality
+    - [ ] Flight simulators
+    - [ ] CAVEs
+    - [ ] Medical imaging
+- [ ] Networking
+    - [ ] p2p, client-server, dead reckoning, encryption, synchronization
+    - [ ] Distributed collaboration
+
+IAS/Foundational Concepts in Security
+[1 Core-Tier1 hour]
+- [ ] CIA (Confidentiality, Integrity, Availability)
+- [ ] Concepts of risk, threats, vulnerabilities, and attack vectors (cros- reference SE/Software Project
+Management/Risk)
+- [ ] Authentication and authorization, access control (mandatory vs. discretionary)
+- [ ] Concept of trust and trustworthiness
+- [ ] Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and
+liability)
+
+IAS/Principles of Secure Design
+[1 Core-Tier1 hour, 1 Core-Tier2 hour]
+. [Core-Tier1]
+- [ ] Least privilege and isolation (cross-reference OS/Security and Protection/Policy/mechanism separation
+and SF/Virtualization and Isolation/Rationale for protection and predictable performance and PL/Language
+Translation and Execution/Memory management)
+- [ ] Fail-safe defaults (cross-reference SE/Software Construction/ Coding practices: techniques,
+idioms/patterns, mechanisms for building quality programs and SDF/Development Methods/Programming
+correctness)
+- [ ] Open design (cross-reference SE/Software Evolution/ Software development in the context of large, preexisting code bases)
+- [ ] End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer
+the distance between the communicating entities; the end-to-end principle)
+- [ ] Defense in depth (e.g., defensive programming, layered defense)
+- [ ] Security by design (cross-reference SE/Software Design/System design principles)
+- [ ] Tensions between security and other design goals
+[Core-Tier2]
+- [ ] Complete mediation
+- [ ] Use of vetted security components
+- [ ] Economy of mechanism (reducing trusted computing base, minimize attack surface) (cross-reference
+SE/Software Design/System design principles and SE/Software Construction/Development context: “green
+field” vs. existing code base)
+- [ ] Usable security (cross-reference HCI/Foundations/Cognitive models that inform interaction design)
+- [ ] Security composability
+- [ ] Prevention, detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction
+between bugs and faults and NC/Reliable Data Delivery/Error control and NC/Reliable Data Delivery/Flow
+control)
+
+IAS/Defensive Programming
+[1 Core-Tier1 hour, 1 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness)
+- [ ] Choice of programming language and type-safe languages
+- [ ] Examples of input validation and data sanitization errors (cross-reference SDF/Development
+Methods/Program Correctness and SE/Software Construction/Coding Practices)
+    - [ ] Buffer overflows
+    - [ ] Integer errors
+    - [ ] SQL injection
+    - [ ] XSS vulnerability
+- [ ] Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared
+vs. distributed memory and PD/Communication and Coordination/Shared Memory and PD/Parallelism
+Fundamentals/Programming errors not found in sequential programming)
+- [ ] Correct handling of exceptions and unexpected behaviors (cross-reference SDF/Development
+Methods/program correctness)
+[Core-Tier2]
+- [ ] Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness
+and Operating System Principles/Concepts of application program interfaces (APIs)
+- [ ] Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and
+devices)
+[Electives]
+- [ ] Information flow control
+- [ ] Correctly generating randomness for security purposes
+- [ ] Mechanisms for detecting and mitigating input and data sanitization errors
+- [ ] Fuzzing
+- [ ] Static analysis and dynamic analysis
+- [ ] Program verification
+- [ ] Operating system support (e.g., address space randomization, canaries)
+- [ ] Hardware support (e.g., DEP, TPM)
+
+IAS/Threats and Attacks
+[1 Core-Tier2 hour]
+[Core-Tier2]
+- [ ] Attacker goals, capabilities, and motivations (such as underground economy, digital espionage,
+cyberwarfare, insider threats, hacktivism, advanced persistent threats)
+- [ ] Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)
+- [ ] Denial of Service (DoS) and Distributed Denial of Service (DDoS)
+- [ ] Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in
+a networked world and HCI/Designing Interaction/Handling human/system failure)
+[Elective]
+- [ ] Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction
+design: culture, communication, networks and organizations (cross-reference SP/Privacy and Civil
+Liberties/technology-based solutions for privacy protection)
+- [ ] Malware/unwanted communication such as covert channels and steganography
+
+IAS/Network Security
+[2 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection,
+man-in-the-middle, message integrity attacks, routing attacks, and traffic analysis)
+- [ ] Use of cryptography for data and network security
+- [ ] Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs,
+anonymous communication protocols, isolation)
+- [ ] Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls,
+spoofing and DoS protection, honeypots, tracebacks)
+. [Elective]
+- [ ] Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks;
+cross-reference NC/Mobility/802.11)
+- [ ] Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks)
+- [ ] Censorship resistance
+- [ ] Operational network security management (e.g., configure network access control)
+
+IAS/Cryptography
+[1 Core-Tier2 hour]
+[Core-Tier2]
+- [ ] Basic Cryptography Terminology covering notions pertaining to the different (communication) partners,
+secure/unsecure channel, attackers and their capabilities, encryption, decryption, keys and their
+characteristics, signatures
+- [ ] Cipher types (e.g., Caesar cipher, affine cipher) together with typical attack methods such as frequency
+analysis
+- [ ] Public Key Infrastructure support for digital signature and encryption and its challenges
+[Elective]
+- [ ] Mathematical Preliminaries essential for cryptography, including topics in linear algebra, number theory,
+probability theory, and statistics
+- [ ] Cryptographic primitives:
+    - [ ] pseudo-random generators and stream ciphers
+    - [ ] block ciphers (pseudo-random permutations), e.g., AES
+    - [ ] pseudo-random functions
+    - [ ] hash functions, e.g., SHA2, collision resistance
+    - [ ] message authentication codes
+    - [ ] key derivations functions
+- [ ] Symmetric key cryptography
+    - [ ] Perfect secrecy and the one time pad
+    - [ ] Modes of operation for semantic security and authenticated encryption (e.g., encrypt-then-MAC,
+OCB, GCM)
+    - [ ] Message integrity (e.g., CMAC, HMAC)
+- [ ] Public key cryptography:
+    - [ ] Trapdoor permutation, e.g., RSA
+    - [ ] Public key encryption, e.g., RSA encryption, EI Gamal encryption
+    - [ ] Digital signatures
+    - [ ] Public-key infrastructure (PKI) and certificates
+    - [ ] Hardness assumptions, e.g., Diffie-Hellman, integer factoring
+- [ ] Authenticated key exchange protocols, e.g., TLS
+- [ ] Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment,
+oblivious transfer, secure 2-party or multi-party computation, secret sharing, and applications
+- [ ] Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and
+servers, secure electronic mail, entity authentication, device pairing, voting systems.
+- [ ] Security definitions and attacks on cryptographic primitives:
+    - [ ] Goals: indistinguishability, unforgeability, collision-resistance
+    - [ ] Attacker capabilities: chosen-message attack (for signatures), birthday attacks, side channel
+attacks, fault injection attacks.
+- [ ] Cryptographic standards and references implementations
+- [ ] Quantum cryptography
+
+IAS/Web Security
+[Elective]
+- [ ] Web security model
+    - [ ] Browser security model including same-origin policy
+    - [ ] Client-server trust boundaries, e.g., cannot rely on secure execution in the client
+- [ ] Session management, authentication
+    - [ ] Single sign-on
+    - [ ] HTTPS and certificates
+- [ ] Application vulnerabilities and defenses
+    - [ ] SQL injection
+    - [ ] XSS
+    - [ ] CSRF
+- [ ] Client-side security
+    - [ ] Cookies security policy
+    - [ ] HTTP security extensions, e.g. HSTS
+    - [ ] Plugins, extensions, and web apps
+    - [ ] Web user tracking
+- [ ] Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers
+
+IAS/Platform Security
+[Elective]
+- [ ] Code integrity and code signing
+- [ ] Secure boot, measured boot, and root of trust
+- [ ] Attestation
+- [ ] TPM and secure co-processors
+- [ ] Security threats from peripherals, e.g., DMA, IOMMU
+- [ ] Physical attacks: hardware Trojans, memory probes, cold boot attacks
+- [ ] Security of embedded devices, e.g., medical devices, cars
+- [ ] Trusted path
+
+IAS/Security Policy and Governance
+[Elective]
+- [ ] Privacy policy (cross-reference SP/Social Context/Social implications of computing in a networked world;
+cross-reference SP/Professional Ethics/Accountability, responsibility and liability; cross-reference
+SP/Privacy and Civil Liberties/Legal foundations of privacy protection)
+- [ ] Inference controls/statistical disclosure limitation
+- [ ] Backup policy, password refresh policy
+- [ ] Breach disclosure policy
+- [ ] Data collection and retention policies
+- [ ] Supply chain policy
+- [ ] Cloud security tradeoffs
+
+IAS/Digital Forensics
+[Elective]
+- [ ] Basic Principles and methodologies for digital forensics
+- [ ] Design systems with forensic needs in mind
+- [ ] Rules of Evidence – general concepts and differences between jurisdictions and Chain of Custody
+- [ ] Search and Seizure of evidence: legal and procedural requirements
+- [ ] Digital Evidence methods and standards
+- [ ] Techniques and standards for Preservation of Data
+- [ ] Legal and Reporting Issues including working as an expert witness
+- [ ] OS/File System Forensics
+- [ ] Application Forensics
+- [ ] Web Forensics
+- [ ] Network Forensics
+- [ ] Mobile Device Forensics
+- [ ] Computer/network/system attacks
+- [ ] Attack detection and investigation
+- [ ] Anti-forensics
+
+IAS/Secure Software Engineering
+[Elective]
+- [ ] Building security into the software development lifecycle (cross-reference SE/Software Processes)
+- [ ] Secure design principles and patterns
+- [ ] Secure software specifications and requirements
+- [ ] Secure software development practices (cross-reference SE/Software Construction)
+- [ ] Secure testing - the process of testing that security requirements are met (including static and dynamic
+analysis).
+- [ ] Software quality assurance and benchmarking measurements
+
+IM/Information Management Concepts
+[1 Core-Tier1 hour; 2 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Information systems as socio-technical systems
+- [ ] Basic information storage and retrieval (IS&R) concepts
+- [ ] Information capture and representation
+- [ ] Supporting human needs: searching, retrieving, linking, browsing, navigating
+[Core-Tier2]
+- [ ] Information management applications
+- [ ] Declarative and navigational queries, use of links
+- [ ] Analysis and indexing
+- [ ] Quality issues: reliability, scalability, efficiency, and effectiveness
+
+IM/Database Systems
+[3 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Approaches to and evolution of database systems
+- [ ] Components of database systems
+- [ ] Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management,
+access methods)
+- [ ] Database architecture and data independence
+- [ ] Use of a declarative query language
+- [ ] Systems supporting structured and/or stream content
+[Elective]
+- [ ] Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce).
+
+IM/Data Modeling
+[4 Core-Tier2 hours]
+- [ ] Data modeling
+- [ ] Conceptual models (e.g., entity-relationship, UML diagrams)
+- [ ] Spreadsheet models
+- [ ] Relational data models
+- [ ] Object-oriented models (cross-reference PL/Object-Oriented Programming)
+- [ ] Semi-structured data model (expressed using DTD or XML Schema, for example)
+
+IM/Indexing
+[Elective]
+- [ ] The impact of indices on query performance
+- [ ] The basic structure of an index
+- [ ] Keeping a buffer of data in memory
+- [ ] Creating indexes with SQL
+- [ ] Indexing text
+- [ ] Indexing the web (e.g., web crawling)
+
+IM/Relational Databases
+[Elective]
+- [ ] Mapping conceptual schema to a relational schema
+- [ ] Entity and referential integrity
+- [ ] Relational algebra and relational calculus
+- [ ] Relational Database design
+- [ ] Functional dependency
+- [ ] Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition
+- [ ] Candidate keys, superkeys, and closure of a set of attributes
+- [ ] Normal forms (BCNF)
+- [ ] Multi-valued dependency (4NF)
+- [ ] Join dependency (PJNF, 5NF)
+- [ ] Representation theory
+
+IM/Query Languages
+[Elective]
+- [ ] Overview of database languages
+- [ ] SQL (data definition, query formulation, update sublanguage, constraints, integrity)
+- [ ] Selections
+- [ ] Projections
+- [ ] Select-project-join
+- [ ] Aggregates and group-by
+- [ ] Subqueries
+- [ ] QBE and 4th-generation environments
+- [ ] Different ways to invoke non-procedural queries in conventional languages
+- [ ] Introduction to other major query languages (e.g., XPATH, SPARQL)
+- [ ] Stored procedures
+
+IM/Transaction Processing
+[Elective]
+- [ ] Transactions
+- [ ] Failure and recovery
+- [ ] Concurrency control
+- [ ] Interaction of transaction management with storage, especially buffering
+
+IM/Distributed Databases
+[Elective]
+- [ ] Distributed DBMS
+    - [ ] Distributed data storage
+    - [ ] Distributed query processing
+    - [ ] Distributed transaction model
+    - [ ] Homogeneous and heterogeneous solutions
+    - [ ] Client-server distributed databases (cross-reference SF/Computational Paradigms)
+- [ ] Parallel DBMS
+    - [ ] Parallel DBMS architectures: shared memory, shared disk, shared nothing;
+    - [ ] Speedup and scale-up, e.g., use of the MapReduce processing model (cross-reference
+CN/Processing, PD/Parallel Decomposition)
+    - [ ] Data replication and weak consistency models
+
+IM/Physical Database Design
+[Elective]
+- [ ] Storage and file structure
+- [ ] Indexed files
+- [ ] Hashed files
+- [ ] Signature files
+- [ ] B-trees
+- [ ] Files with dense index
+- [ ] Files with variable length records
+- [ ] Database efficiency and tuning
+
+IM/Data Mining
+[Elective]
+- [ ] Uses of data mining
+- [ ] Data mining algorithms
+- [ ] Associative and sequential patterns
+- [ ] Data clustering
+- [ ] Market basket analysis
+- [ ] Data cleaning
+- [ ] Data visualization (cross-reference GV/Visualization and CN/Interactive Visualization)
+
+IM/Information Storage and Retrieval
+[Elective]
+- [ ] Documents, electronic publishing, markup, and markup languages
+- [ ] Tries, inverted files, PAT trees, signature files, indexing
+- [ ] Morphological analysis, stemming, phrases, stop lists
+- [ ] Term frequency distributions, uncertainty, fuzziness, weighting
+- [ ] Vector space, probabilistic, logical, and advanced models
+- [ ] Information needs, relevance, evaluation, effectiveness
+- [ ] Thesauri, ontologies, classification and categorization, metadata
+- [ ] Bibliographic information, bibliometrics, citations
+- [ ] Routing and (community) filtering
+- [ ] Multimedia search, information seeking behavior, user modeling, feedback
+- [ ] Information summarization and visualization
+- [ ] Faceted search (e.g., using citations, keywords, classification schemes)
+- [ ] Digital libraries
+- [ ] Digitization, storage, interchange, digital objects, composites, and packages
+- [ ] Metadata and cataloging
+- [ ] Naming, repositories, archives
+- [ ] Archiving and preservation, integrity
+- [ ] Spaces (conceptual, geographical, 2/3D, VR)
+- [ ] Architectures (agents, buses, wrappers/mediators), interoperability
+- [ ] Services (searching, linking, browsing, and so forth)
+- [ ] Intellectual property rights management, privacy, and protection (watermarking)
+
+IM/Multimedia Systems
+[Elective]
+- [ ] Input and output devices, device drivers, control signals and protocols, DSPs
+- [ ] Standards (e.g., audio, graphics, video)
+- [ ] Applications, media editors, authoring systems, and authoring
+- [ ] Streams/structures, capture/represent/transform, spaces/domains, compression/coding
+- [ ] Content-based analysis, indexing, and retrieval of audio, images, animation, and video
+- [ ] Presentation, rendering, synchronization, multi-modal integration/interfaces
+- [ ] Real-time delivery, quality of service (including performance), capacity planning, audio/video
+conferencing, video-on-demand
+
+IS/Fundamental Issues
+[1 Core-Tier2 hours]
+- [ ] Overview of AI problems, examples of successful recent AI applications
+- [ ] What is intelligent behavior?
+    - [ ] The Turing test
+    - [ ] Rational versus non-rational reasoning
+- [ ] Problem characteristics
+    - [ ] Fully versus partially observable
+    - [ ] Single versus multi-agent
+    - [ ] Deterministic versus stochastic
+    - [ ] Static versus dynamic
+    - [ ] Discrete versus continuous
+- [ ] Nature of agents
+    - [ ] Autonomous versus semi-autonomous
+    - [ ] Reflexive, goal-based, and utility-based
+    - [ ] The importance of perception and environmental interactions
+- [ ] Philosophical and ethical issues. [elective]
+
+IS/Basic Search Strategies
+[4 Core-Tier2 hours]
+- [ ] Problem spaces (states, goals and operators), problem solving by search
+- [ ] Factored representation (factoring state into variables)
+- [ ] Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)
+- [ ] Heuristics and informed search (hill-climbing, generic best-first, A*)
+- [ ] Space and time efficiency of search
+- [ ] Two-player games (introduction to minimax search)
+- [ ] Constraint satisfaction (backtracking and local search methods)
+
+IS/Basic Knowledge Representation and Reasoning
+[3 Core-Tier2 hours]
+- [ ] Review of propositional and predicate logic (cross-reference DS/Basic Logic)
+- [ ] Resolution and theorem proving (propositional logic only)
+- [ ] Forward chaining, backward chaining
+- [ ] Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)
+
+IS/Basic Machine Learning
+[2 Core-Tier2 hours]
+- [ ] Definition and examples of broad variety of machine learning tasks, including classification
+- [ ] Inductive learning
+- [ ] Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees
+- [ ] The over-fitting problem
+- [ ] Measuring classifier accuracy
+
+IS/Advanced Search
+[Elective]
+- [ ] Constructing search trees, dynamic search space, combinatorial explosion of search space
+- [ ] Stochastic search
+    - [ ] Simulated annealing
+    - [ ] Genetic algorithms
+    - [ ] Monte-Carlo tree search
+- [ ] Implementation of A* search, beam search
+- [ ] Minimax search, alpha-beta pruning
+- [ ] Expectimax search (MDP-solving) and chance nodes
+
+IS/Advanced Representation and Reasoning
+[Elective]
+- [ ] Knowledge representation issues
+    - [ ] Description logics
+    - [ ] Ontology engineering
+- [ ] Non-monotonic reasoning (e.g., non-classical logics, default reasoning)
+- [ ] Argumentation
+- [ ] Reasoning about action and change (e.g., situation and event calculus)
+- [ ] Temporal and spatial reasoning
+- [ ] Rule-based Expert Systems
+- [ ] Semantic networks
+- [ ] Model-based and Case-based reasoning
+- [ ] Planning:
+    - [ ] Partial and totally ordered planning
+    - [ ] Plan graphs
+    - [ ] Hierarchical planning
+    - [ ] Planning and execution including conditional planning and continuous planning
+    - [ ] Mobile agent/Multi-agent planning
+
+IS/Reasoning Under Uncertainty
+[Elective]
+- [ ] Review of basic probability (cross-reference DS/Discrete Probability)
+- [ ] Random variables and probability distributions
+    - [ ] Axioms of probability
+    - [ ] Probabilistic inference
+    - [ ] Bayes’ Rule
+- [ ] Conditional Independence
+- [ ] Knowledge representations
+    - [ ] Bayesian Networks
+ Exact inference and its complexity
+ Randomized sampling (Monte Carlo) methods (e.g. Gibbs sampling)
+    - [ ] Markov Networks
+    - [ ] Relational probability models
+    - [ ] Hidden Markov Models
+- [ ] Decision Theory
+    - [ ] Preferences and utility functions
+    - [ ] Maximizing expected utility
+
+IS/Agents
+[Elective]
+- [ ] Definitions of agents
+- [ ] Agent architectures (e.g., reactive, layered, cognitive)
+- [ ] Agent theory
+- [ ] Rationality, game theory
+    - [ ] Decision-theoretic agents
+    - [ ] Markov decision processes (MDP)
+- [ ] Software agents, personal assistants, and information access
+    - [ ] Collaborative agents
+    - [ ] Information-gathering agents
+    - [ ] Believable agents (synthetic characters, modeling emotions in agents)
+- [ ] Learning agents
+- [ ] Multi-agent systems
+    - [ ] Collaborating agents
+    - [ ] Agent teams
+    - [ ] Competitive agents (e.g., auctions, voting)
+    - [ ] Swarm systems and biologically inspired models
+
+IS/Natural Language Processing
+[Elective]
+- [ ] Deterministic and stochastic grammars
+- [ ] Parsing algorithms
+    - [ ] CFGs and chart parsers (e.g. CYK)
+    - [ ] Probabilistic CFGs and weighted CYK
+- [ ] Representing meaning / Semantics
+    - [ ] Logic-based knowledge representations
+    - [ ] Semantic roles
+    - [ ] Temporal representations
+    - [ ] Beliefs, desires, and intentions
+- [ ] Corpus-based methods
+- [ ] N-grams and HMMs
+- [ ] Smoothing and backoff
+- [ ] Examples of use: POS tagging and morphology
+- [ ] Information retrieval (Cross-reference IM/Information Storage and Retrieval)
+    - [ ] Vector space model
+ TF & IDF
+    - [ ] Precision and recall
+- [ ] Information extraction
+- [ ] Language translation
+- [ ] Text classification, categorization
+    - [ ] Bag of words model
+
+IS/Advanced Machine Learning
+[Elective]
+- [ ] Definition and examples of broad variety of machine learning tasks
+- [ ] General statistical-based learning, parameter estimation (maximum likelihood)
+- [ ] Inductive logic programming (ILP)
+- [ ] Supervised learning
+    - [ ] Learning decision trees
+    - [ ] Learning neural networks
+    - [ ] Support vector machines (SVMs)
+- [ ] Ensembles
+- [ ] Nearest-neighbor algorithms
+- [ ] Unsupervised Learning and clustering
+    - [ ] EM
+    - [ ] K-means
+    - [ ] Self-organizing maps
+- [ ] Semi-supervised learning
+- [ ] Learning graphical models (Cross-reference IS/Reasoning under Uncertainty)
+- [ ] Performance evaluation (such as cross-validation, area under ROC curve)
+- [ ] Learning theory
+- [ ] The problem of overfitting, the curse of dimensionality
+- [ ] Reinforcement learning
+    - [ ] Exploration vs. exploitation trade-off
+    - [ ] Markov decision processes
+    - [ ] Value and policy iteration
+- [ ] Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining)
+
+IS/Robotics
+[Elective]
+- [ ] Overview: problems and progress
+    - [ ] State-of-the-art robot systems, including their sensors and an overview of their sensor processing
+    - [ ] Robot control architectures, e.g., deliberative vs. reactive control and Braitenberg vehicles
+    - [ ] World modeling and world models
+    - [ ] Inherent uncertainty in sensing and in control
+- [ ] Configuration space and environmental maps
+- [ ] Interpreting uncertain sensor data
+- [ ] Localizing and mapping
+- [ ] Navigation and control
+- [ ] Motion planning
+- [ ] Multiple-robot coordination
+
+IS/Perception and Computer Vision
+[Elective]
+- [ ] Computer vision
+    - [ ] Image acquisition, representation, processing and properties
+    - [ ] Shape representation, object recognition and segmentation
+    - [ ] Motion analysis
+- [ ] Audio and speech recognition
+- [ ] Modularity in recognition
+- [ ] Approaches to pattern recognition (cross-reference IS/Advanced Machine Learning)
+    - [ ] Classification algorithms and measures of classification quality
+    - [ ] Statistical techniques
+
+NC/Introduction
+[1.5 Core-Tier1 hours]
+- [ ] Organization of the Internet (Internet Service Providers, Content Providers, etc.)
+- [ ] Switching techniques (e.g., circuit, packet)
+- [ ] Physical pieces of a network, including hosts, routers, switches, ISPs, wireless, LAN, access point, and
+firewalls
+- [ ] Layering principles (encapsulation, multiplexing)
+- [ ] Roles of the different layers (application, transport, network, datalink, physical)
+
+NC/Networked Applications
+[1.5 Core-Tier1 hours]
+- [ ] Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)
+- [ ] Distributed applications (client/server, peer-to-peer, cloud, etc.)
+- [ ] HTTP as an application layer protocol
+- [ ] Multiplexing with TCP and UDP
+- [ ] Socket APIs
+
+NC/Reliable Data Delivery
+[2 Core-Tier2 hours]
+- [ ] Error control (retransmission techniques, timers)
+- [ ] Flow control (acknowledgements, sliding window)
+- [ ] Performance issues (pipelining)
+- [ ] TCP
+
+NC/Routing and Forwarding
+[1.5 Core-Tier2 hours]
+- [ ] Routing versus forwarding
+- [ ] Static routing
+- [ ] Internet Protocol (IP)
+- [ ] Scalability issues (hierarchical addressing)
+
+NC/Local Area Networks
+[1.5 Core-Tier2 hours]
+- [ ] Multiple Access Problem
+- [ ] Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)
+- [ ] Local Area Networks
+- [ ] Ethernet
+- [ ] Switching
+
+NC/Resource Allocation
+[1 Core-Tier2 hours]
+- [ ] Need for resource allocation
+- [ ] Fixed allocation (TDM, FDM, WDM) versus dynamic allocation
+- [ ] End-to-end versus network assisted approaches
+- [ ] Fairness
+- [ ] Principles of congestion control
+- [ ] Approaches to Congestion (e.g., Content Distribution Networks)
+
+NC/Mobility
+[1 Core-Tier2 hours]
+- [ ] Principles of cellular networks
+- [ ] 802.11 networks
+- [ ] Issues in supporting mobile nodes (home agents)
+
+NC/Social Networking
+[Elective]
+- [ ] Social networks overview
+- [ ] Example social network platforms
+- [ ] Structure of social network graphs
+- [ ] Social network analysis
+
+OS/Overview of Operating Systems
+[2 Core-Tier1 hours]
+- [ ] Role and purpose of the operating system
+- [ ] Functionality of a typical operating system
+- [ ] Mechanisms to support client-server models, hand-held devices
+- [ ] Design issues (efficiency, robustness, flexibility, portability, security, compatibility)
+- [ ] Influences of security, networking, multimedia, windowing systems
+
+OS/Operating System Principles
+[2 Core-Tier1 hours]
+- [ ] Structuring methods (monolithic, layered, modular, micro-kernel models)
+- [ ] Abstractions, processes, and resources
+- [ ] Concepts of application program interfaces (APIs)
+- [ ] The evolution of hardware/software techniques and application needs
+- [ ] Device organization
+- [ ] Interrupts: methods and implementations
+- [ ] Concept of user/system state and protection, transition to kernel mode
+
+OS/Concurrency
+[3 Core-Tier2 hours]
+- [ ] States and state diagrams (cross-reference SF/State and State Machines)
+- [ ] Structures (ready list, process control blocks, and so forth)
+- [ ] Dispatching and context switching
+- [ ] The role of interrupts
+- [ ] Managing atomic access to OS objects
+- [ ] Implementing synchronization primitives
+- [ ] Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)
+
+OS/Scheduling and Dispatch
+[3 Core-Tier2 hours]
+- [ ] Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling,
+PD/Parallel Performance)
+- [ ] Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel
+Performance)
+- [ ] Processes and threads (cross-reference SF/Computational paradigms)
+- [ ] Deadlines and real-time issues
+
+OS/Memory Management
+[3 Core-Tier2 hours]
+- [ ] Review of physical memory and memory management hardware
+- [ ] Working sets and thrashing
+- [ ] Caching (cross-reference AR/Memory System Organization and Architecture)
+
+OS/Security and Protection
+[2 Core-Tier2 hours]
+- [ ] Overview of system security
+- [ ] Policy/mechanism separation
+- [ ] Security methods and devices
+- [ ] Protection, access control, and authentication
+- [ ] Backups
+
+OS/Virtual Machines
+[Elective]
+- [ ] Types of virtualization (including Hardware/Software, OS, Server, Service, Network)
+- [ ] Paging and virtual memory
+- [ ] Virtual file systems
+- [ ] Hypervisors
+- [ ] Portable virtualization; emulation vs. isolation
+- [ ] Cost of virtualization
+
+OS/Device Management
+[Elective]
+- [ ] Characteristics of serial and parallel devices
+- [ ] Abstracting device differences
+- [ ] Buffering strategies
+- [ ] Direct memory access
+- [ ] Recovery from failures
+
+OS/File Systems
+[Elective]
+- [ ] Files: data, metadata, operations, organization, buffering, sequential, nonsequential
+- [ ] Directories: contents and structure
+- [ ] File systems: partitioning, mount/unmount, virtual file systems
+- [ ] Standard implementation techniques
+- [ ] Memory-mapped files
+- [ ] Special-purpose file systems
+- [ ] Naming, searching, access, backups
+- [ ] Journaling and log-structured file systems
+
+OS/Real Time and Embedded Systems
+[Elective]
+- [ ] Process and task scheduling
+- [ ] Memory/disk management requirements in a real-time environment
+- [ ] Failures, risks, and recovery
+- [ ] Special concerns in real-time systems
+
+OS/Fault Tolerance
+[Elective]
+- [ ] Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)
+- [ ] Spatial and temporal redundancy (cross-reference SF/Reliability through Redundancy)
+- [ ] Methods used to implement fault tolerance
+- [ ] Examples of OS mechanisms for detection, recovery, restart to implement fault tolerance, use of these
+techniques for the OS’s own services
+
+OS/System Performance Evaluation
+[Elective]
+- [ ] Why system performance needs to be evaluated (cross-reference SF/Performance/Figures of performance
+merit)
+- [ ] What is to be evaluated (cross-reference SF/Performance/Figures of performance merit)
+- [ ] Systems performance policies, e.g., caching, paging, scheduling, memory management, and security
+- [ ] Evaluation models: deterministic, analytic, simulation, or implementation-specific
+- [ ] How to collect evaluation data (profiling and tracing mechanisms)
+
+PBD/Introduction
+[Elective]
+- [ ] Overview of platforms (e.g., Web, Mobile, Game, Industrial)
+- [ ] Programming via platform-specific APIs
+- [ ] Overview of Platform Languages (e.g., Objective C, HTML5)
+- [ ] Programming under platform constraints
+
+PBD/Web Platforms
+[Elective]
+- [ ] Web programming languages (e.g., HTML5, Java Script, PHP, CSS)
+- [ ] Web platform constraints
+- [ ] Software as a Service (SaaS)
+- [ ] Web standards
+
+PBD/Mobile Platforms
+[Elective]
+- [ ] Mobile programming languages
+- [ ] Challenges with mobility and wireless communication
+- [ ] Location-aware applications
+- [ ] Performance / power tradeoffs
+- [ ] Mobile platform constraints
+- [ ] Emerging technologies
+
+PBD/Industrial Platforms
+[Elective]
+- [ ] Types of Industrial Platforms (e.g., Mathematic, Robotic, Industrial Control)
+- [ ] Robotic software and its architecture
+- [ ] Domain-specific languages
+- [ ] Industrial platform constraints
+
+PBD/Game Platforms
+[Elective]
+- [ ] Types of game platforms (e.g., XBox, Wii, PlayStation)
+- [ ] Game platform languages (e.g., C++, Java, Lua, Python)
+- [ ] Game platform constraints
+
+PD/Parallelism Fundamentals
+[2 Core-Tier1 hours]
+- [ ] Multiple simultaneous computations
+- [ ] Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)
+- [ ] Parallelism, communication, and coordination
+    - [ ] Programming constructs for coordinating multiple simultaneous computations
+    - [ ] Need for synchronization
+- [ ] Programming errors not found in sequential programming
+    - [ ] Data races (simultaneous read/write or write/write of shared state)
+    - [ ] Higher-level races (interleavings violating program intention, undesired non-determinism)
+    - [ ] Lack of liveness/progress (deadlock, starvation)
+
+PD/Parallel Decomposition
+[1 Core-Tier1 hour, 3 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Need for communication and coordination/synchronization
+- [ ] Independence and partitioning
+[Core-Tier2]
+- [ ] Basic knowledge of parallel decomposition concepts (cross-reference SF/System Support for Parallelism)
+- [ ] Task-based decomposition
+    - [ ] Implementation strategies such as threads
+- [ ] Data-parallel decomposition
+    - [ ] Strategies such as SIMD and MapReduce
+- [ ] Actors and reactive processes (e.g., request handlers)
+
+PD/Communication and Coordination
+[1 Core-Tier1 hour, 3 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Shared Memory
+- [ ] Consistency, and its role in programming language guarantees for data-race-free programs
+[Core-Tier2]
+- [ ] Message passing
+    - [ ] Point-to-point versus multicast (or event-based) messages
+    - [ ] Blocking versus non-blocking styles for sending and receiving messages
+    - [ ] Message buffering (cross-reference PF/Fundamental Data Structures/Queues)
+- [ ] Atomicity
+    - [ ] Specifying and testing atomicity and safety requirements
+    - [ ] Granularity of atomic accesses and updates, and the use of constructs such as critical sections or
+transactions to describe them
+    - [ ] Mutual Exclusion using locks, semaphores, monitors, or related constructs
+ Potential for liveness failures and deadlock (causes, conditions, prevention)
+    - [ ] Composition
+ Composing larger granularity atomic actions using synchronization
+ Transactions, including optimistic and conservative approaches
+[Elective]
+- [ ] Consensus
+    - [ ] (Cyclic) barriers, counters, or related constructs
+- [ ] Conditional actions
+    - [ ] Conditional waiting (e.g., using condition variables)
+
+PD/Parallel Algorithms, Analysis, and Programming
+[3 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Critical paths, work and span, and the relation to Amdahl’s law (cross-reference SF/Performance)
+- [ ] Speed-up and scalability
+- [ ] Naturally (embarrassingly) parallel algorithms
+- [ ] Parallel algorithmic patterns (divide-and-conquer, map and reduce, master-workers, others)
+    - [ ] Specific algorithms (e.g., parallel MergeSort)
+[Elective]
+- [ ] Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree) (cross-reference
+AL/Algorithmic Strategies/Divide-and-conquer)
+- [ ] Parallel matrix computations
+- [ ] Producer-consumer and pipelined algorithms
+- [ ] Examples of non-scalable parallel algorithms
+
+PD/Parallel Performance
+[Elective]
+- [ ] Load balancing
+- [ ] Performance measurement
+- [ ] Scheduling and contention (cross-reference OS/Scheduling and Dispatch)
+- [ ] Evaluating communication overhead
+- [ ] Data management
+    - [ ] Non-uniform communication costs due to proximity (cross-reference SF/Proximity)
+    - [ ] Cache effects (e.g., false sharing)
+    - [ ] Maintaining spatial locality
+- [ ] Power usage and management
+
+PD/Distributed Systems
+[Elective]
+- [ ] Faults (cross-reference OS/Fault Tolerance)
+    - [ ] Network-based (including partitions) and node-based failures
+    - [ ] Impact on system-wide guarantees (e.g., availability)
+- [ ] Distributed message sending
+    - [ ] Data conversion and transmission
+    - [ ] Sockets
+    - [ ] Message sequencing
+    - [ ] Buffering, retrying, and dropping messages
+- [ ] Distributed system design tradeoffs
+    - [ ] Latency versus throughput
+    - [ ] Consistency, availability, partition tolerance
+- [ ] Distributed service design
+    - [ ] Stateful versus stateless protocols and services
+    - [ ] Session (connection-based) designs
+    - [ ] Reactive (IO-triggered) and multithreaded designs
+- [ ] Core distributed algorithms
+    - [ ] Election, discovery
+
+PD/Cloud Computing
+[Elective]
+- [ ] Internet-Scale computing
+    - [ ] Task partitioning (cross-reference PD/Parallel Algorithms, Analysis, and Programming)
+    - [ ] Data access
+    - [ ] Clusters, grids, and meshes
+- [ ] Cloud services
+    - [ ] Infrastructure as a service
+ Elasticity of resources
+ Platform APIs
+    - [ ] Software as a service
+    - [ ] Security
+    - [ ] Cost management
+- [ ] Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines)
+    - [ ] Shared resource management
+    - [ ] Migration of processes
+- [ ] Cloud-based data storage
+    - [ ] Shared access to weakly consistent data stores
+    - [ ] Data synchronization
+    - [ ] Data partitioning
+    - [ ] Distributed file systems (cross-reference IM/Distributed Databases)
+    - [ ] Replication
+
+PD/Formal Models and Semantics
+[Elective]
+- [ ] Formal models of processes and message passing, including algebras such as Communicating Sequential
+Processes (CSP) and pi-calculus
+- [ ] Formal models of parallel computation, including the Parallel Random Access Machine (PRAM) and
+alternatives such as Bulk Synchronous Parallel (BSP)
+- [ ] Formal models of computational dependencies
+- [ ] Models of (relaxed) shared memory consistency and their relation to programming language specifications
+- [ ] Algorithmic correctness criteria including linearizability
+- [ ] Models of algorithmic progress, including non-blocking guarantees and fairness
+- [ ] Techniques for specifying and checking correctness properties such as atomicity and freedom from data
+races
+
+PL/Object-Oriented Programming
+[4 Core-Tier1 hours, 6 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Object-oriented design
+    - [ ] Decomposition into objects carrying state and having behavior
+    - [ ] Class-hierarchy design for modeling
+- [ ] Definition of classes: fields, methods, and constructors
+- [ ] Subclasses, inheritance, and method overriding
+- [ ] Dynamic dispatch: definition of method-call
+[Core-Tier2]
+- [ ] Subtyping (cross-reference PL/Type Systems)
+    - [ ] Subtype polymorphism; implicit upcasts in typed languages
+    - [ ] Notion of behavioral replacement: subtypes acting like supertypes
+    - [ ] Relationship between subtyping and inheritance
+- [ ] Object-oriented idioms for encapsulation
+    - [ ] Privacy and visibility of class members
+    - [ ] Interfaces revealing only method signatures
+    - [ ] Abstract base classes
+- [ ] Using collection classes, iterators, and other common library components
+
+PL/Functional Programming
+[3 Core-Tier1 hours, 4 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Effect-free programming
+    - [ ] Function calls have no side effects, facilitating compositional reasoning
+    - [ ] Variables are immutable, preventing unexpected changes to program data by other code
+    - [ ] Data can be freely aliased or copied without introducing unintended effects from mutation
+- [ ] Processing structured data (e.g., trees) via functions with cases for each data variant
+    - [ ] Associated language constructs such as discriminated unions and pattern-matching over them
+    - [ ] Functions defined over compound data in terms of functions applied to the constituent pieces
+- [ ] First-class functions (taking, returning, and storing functions)
+[Core-Tier2]
+- [ ] Function closures (functions using variables in the enclosing lexical environment)
+    - [ ] Basic meaning and definition -- creating closures at run-time by capturing the environment
+    - [ ] Canonical idioms: call-backs, arguments to iterators, reusable code via function arguments
+    - [ ] Using a closure to encapsulate data in its environment
+    - [ ] Currying and partial application
+- [ ] Defining higher-order operations on aggregates, especially map, reduce/fold, and filter
+
+PL/Event-Driven and Reactive Programming
+[2 Core-Tier2 hours]
+- [ ] Events and event handlers
+- [ ] Canonical uses such as GUIs, mobile devices, robots, servers
+- [ ] Using a reactive framework
+    - [ ] Defining event handlers/listeners
+    - [ ] Main event loop not under event-handler-writer’s control
+- [ ] Externally-generated events and program-generated events
+- [ ] Separation of model, view, and controller
+
+PL/Basic Type Systems
+[1 Core-Tier1 hour, 4 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] A type as a set of values together with a set of operations
+    - [ ] Primitive types (e.g., numbers, Booleans)
+    - [ ] Compound types built from other types (e.g., records, unions, arrays, lists, functions, references)
+- [ ] Association of types to variables, arguments, results, and fields
+- [ ] Type safety and errors caused by using values inconsistently given their intended types
+- [ ] Goals and limitations of static typing
+    - [ ] Eliminating some classes of errors without running the program
+    - [ ] Undecidability means static analysis must conservatively approximate program behavior
+[Core-Tier2]
+- [ ] Generic types (parametric polymorphism)
+    - [ ] Definition
+    - [ ] Use for generic libraries such as collections
+    - [ ] Comparison with ad hoc polymorphism (overloading) and subtype polymorphism
+- [ ] Complementary benefits of static and dynamic typing
+    - [ ] Errors early vs. errors late/avoided
+    - [ ] Enforce invariants during code development and code maintenance vs. postpone typing decisions
+while prototyping and conveniently allow flexible coding patterns such as heterogeneous
+collections
+    - [ ] Avoid misuse of code vs. allow more code reuse
+    - [ ] Detect incomplete programs vs. allow incomplete programs to run
+
+PL/Program Representation
+[1 Core-Tier2 hour]
+- [ ] Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation
+generators
+- [ ] Abstract syntax trees; contrast with concrete syntax
+- [ ] Data structures to represent code for execution, translation, or transmission
+
+PL/Language Translation and Execution
+[3 Core-Tier2 hours]
+- [ ] Interpretation vs. compilation to native code vs. compilation to portable intermediate representation
+- [ ] Language translation pipeline: parsing, optional type-checking, translation, linking, execution
+    - [ ] Execution as native code or within a virtual machine
+    - [ ] Alternatives like dynamic loading and dynamic (or “just-in-time”) code generation
+- [ ] Run-time representation of core language constructs such as objects (method tables) and first-class
+functions (closures)
+- [ ] Run-time layout of memory: call-stack, heap, static data
+    - [ ] Implementing loops, recursion, and tail calls
+- [ ] Memory management
+    - [ ] Manual memory management: allocating, de-allocating, and reusing heap memory
+    - [ ] Automated memory management: garbage collection as an automated technique using the notion
+of reachability
+
+PL/Syntax Analysis
+[Elective]
+- [ ] Scanning (lexical analysis) using regular expressions
+- [ ] Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g.,
+backtracking or LR) techniques; role of context-free grammars
+- [ ] Generating scanners and parsers from declarative specifications
+
+PL/Compiler Semantic Analysis
+[Elective]
+- [ ] High-level program representations such as abstract syntax trees
+- [ ] Scope and binding resolution
+- [ ] Type checking
+- [ ] Declarative specifications such as attribute grammars
+
+PL/Code Generation
+[Elective]
+- [ ] Procedure calls and method dispatching
+- [ ] Separate compilation; linking
+- [ ] Instruction selection
+- [ ] Instruction scheduling
+- [ ] Register allocation
+- [ ] Peephole optimization
+
+PL/Runtime Systems
+[Elective]
+- [ ] Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep,
+copying, reference counting), regions (also known as arenas or zones)
+- [ ] Data layout for objects and activation records
+- [ ] Just-in-time compilation and dynamic recompilation
+- [ ] Other common features of virtual machines, such as class loading, threads, and security.
+
+PL/Static Analysis
+[Elective]
+- [ ] Relevant program representations, such as basic blocks, control-flow graphs, def-use chains, and static
+single assignment
+- [ ] Undecidability and consequences for program analysis
+- [ ] Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses
+- [ ] Flow-sensitive analyses, such as forward and backward dataflow analyses
+- [ ] Path-sensitive analyses, such as software model checking
+- [ ] Tools and frameworks for defining analyses
+- [ ] Role of static analysis in program optimization
+- [ ] Role of static analysis in (partial) verification and bug-finding
+
+PL/Advanced Programming Constructs
+[Elective]
+- [ ] Lazy evaluation and infinite streams
+- [ ] Control Abstractions: Exception Handling, Continuations, Monads
+- [ ] Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods
+- [ ] Metaprogramming: Macros, Generative programming, Model-based development
+- [ ] Module systems
+- [ ] String manipulation via pattern-matching (regular expressions)
+- [ ] Dynamic code evaluation (“eval”)
+- [ ] Language support for checking assertions, invariants, and pre/post-conditions
+
+PL/Concurrency and Parallelism
+[Elective]
+- [ ] Constructs for thread-shared variables and shared-memory synchronization
+- [ ] Actor models
+- [ ] Futures
+- [ ] Language support for data parallelism
+- [ ] Models for passing messages between sequential processes
+- [ ] Effect of memory-consistency models on language semantics and correct code generation
+
+PL/Type Systems
+[Elective]
+- [ ] Compositional type constructors, such as product types (for aggregates), sum types (for unions), function
+types, quantified types, and recursive types
+- [ ] Type checking
+- [ ] Type safety as preservation plus progress
+- [ ] Type inference
+- [ ] Static overloading
+
+PL/Formal Semantics
+[Elective]
+- [ ] Syntax vs. semantics
+- [ ] Lambda Calculus
+- [ ] Approaches to semantics: Operational, Denotational, Axiomatic
+- [ ] Proofs by induction over language semantics
+- [ ] Formal definitions and proofs for type systems (cross-reference PL/Type Systems)
+- [ ] Parametricity (cross-reference PL/Type Systems)
+- [ ] Using formal semantics for systems modeling
+
+PL/Language Pragmatics
+[Elective]
+- [ ] Principles of language design such as orthogonality
+- [ ] Evaluation order, precedence, and associativity
+- [ ] Eager vs. delayed evaluation
+- [ ] Defining control and iteration constructs
+- [ ] External calls and system libraries
+
+PL/Logic Programming
+[Elective]
+- [ ] Clausal representation of data structures and algorithms
+- [ ] Unification
+- [ ] Backtracking and search
+- [ ] Cuts
+
+SDF/Algorithms and Design
+[11 Core-Tier1 hours]
+- [ ] The concept and properties of algorithms
+    - [ ] Informal comparison of algorithm efficiency (e.g., operation counts)
+- [ ] The role of algorithms in the problem-solving process
+- [ ] Problem-solving strategies
+    - [ ] Iterative and recursive mathematical functions
+    - [ ] Iterative and recursive traversal of data structures
+    - [ ] Divide-and-conquer strategies
+- [ ] Fundamental design concepts and principles
+    - [ ] Abstraction
+    - [ ] Program decomposition
+    - [ ] Encapsulation and information hiding
+    - [ ] Separation of behavior and implementation
+
+SDF/Fundamental Programming Concepts
+[10 Core-Tier1 hours]
+- [ ] Basic syntax and semantics of a higher-level language
+- [ ] Variables and primitive data types (e.g., numbers, characters, Booleans)
+- [ ] Expressions and assignments
+- [ ] Simple I/O including file I/O
+- [ ] Conditional and iterative control structures
+- [ ] Functions and parameter passing
+- [ ] The concept of recursion
+
+SDF/Fundamental Data Structures
+[12 Core-Tier1 hours]
+- [ ] Arrays
+- [ ] Records/structs (heterogeneous aggregates)
+- [ ] Strings and string processing
+- [ ] Abstract data types and their implementation
+    - [ ] Stacks
+    - [ ] Queues
+    - [ ] Priority queues
+    - [ ] Sets
+    - [ ] Maps
+- [ ] References and aliasing
+- [ ] Linked lists
+- [ ] Strategies for choosing the appropriate data structure
+
+SDF/Development Methods
+[10 Core-Tier1 hours]
+- [ ] Program comprehension
+- [ ] Program correctness
+    - [ ] Types of errors (syntax, logic, run-time)
+    - [ ] The concept of a specification
+    - [ ] Defensive programming (e.g. secure coding, exception handling)
+    - [ ] Code reviews
+    - [ ] Testing fundamentals and test-case generation
+    - [ ] The role and the use of contracts, including pre- and post-conditions
+    - [ ] Unit testing
+- [ ] Simple refactoring
+- [ ] Modern programming environments
+    - [ ] Code search
+    - [ ] Programming using library components and their APIs
+- [ ] Debugging strategies
+- [ ] Documentation and program style
+
+SE/Software Processes
+[2 Core-Tier1 hours; 1 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Systems level considerations, i.e., the interaction of software with its intended environment (crossreference IAS/Secure Software Engineering)
+- [ ] Introduction to software process models (e.g., waterfall, incremental, agile)
+    - [ ] Activities within software lifecycles
+- [ ] Programming in the large vs. individual programming
+[Core-Tier2]
+- [ ] Evaluation of software process models
+[Elective]
+- [ ] Software quality concepts
+- [ ] Process improvement
+- [ ] Software process capability maturity models
+- [ ] Software process measurements
+
+SE/Software Project Management
+[2 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Team participation
+    - [ ] Team processes including responsibilities for tasks, meeting structure, and work schedule
+    - [ ] Roles and responsibilities in a software team
+    - [ ] Team conflict resolution
+    - [ ] Risks associated with virtual teams (communication, perception, structure)
+- [ ] Effort Estimation (at the personal level)
+- [ ] Risk (cross reference IAS/Secure Software Engineering)
+    - [ ] The role of risk in the lifecycle
+    - [ ] Risk categories including security, safety, market, financial, technology, people, quality, structure
+and process
+[Elective]
+- [ ] Team management
+    - [ ] Team organization and decision-making
+    - [ ] Role identification and assignment
+    - [ ] Individual and team performance assessment
+- [ ] Project management
+    - [ ] Scheduling and tracking
+    - [ ] Project management tools
+    - [ ] Cost/benefit analysis
+- [ ] Software measurement and estimation techniques
+- [ ] Software quality assurance and the role of measurements
+- [ ] Risk
+    - [ ] Risk identification and management
+    - [ ] Risk analysis and evaluation
+    - [ ] Risk tolerance (e.g., risk-adverse, risk-neutral, risk-seeking)
+    - [ ] Risk planning
+- [ ] System-wide approach to risk including hazards associated with tools
+
+SE/Tools and Environments
+[2 Core-Tier2 hours]
+- [ ] Software configuration management and version control
+- [ ] Release management
+- [ ] Requirements analysis and design modeling tools
+- [ ] Testing tools including static and dynamic analysis tools
+- [ ] Programming environments that automate parts of program construction processes (e.g., automated builds)
+    - [ ] Continuous integration
+- [ ] Tool integration concepts and mechanisms
+
+SE/Requirements Engineering
+[1 Core-Tier1 hour; 3 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Describing functional requirements using, for example, use cases or users stories
+- [ ] Properties of requirements including consistency, validity, completeness, and feasibility
+[Core-Tier2]
+- [ ] Software requirements elicitation
+- [ ] Describing system data using, for example, class diagrams or entity-relationship diagrams
+- [ ] Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure
+Software Engineering)
+- [ ] Evaluation and use of requirements specifications
+[Elective]
+- [ ] Requirements analysis modeling techniques
+- [ ] Acceptability of certainty / uncertainty considerations regarding software / system behavior
+- [ ] Prototyping
+- [ ] Basic concepts of formal requirements specification
+- [ ] Requirements specification
+- [ ] Requirements validation
+- [ ] Requirements tracing
+
+SE/Software Design
+[3 Core-Tier1 hours; 5 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] System design principles: levels of abstraction (architectural design and detailed design), separation of
+concerns, information hiding, coupling and cohesion, re-use of standard structures
+- [ ] Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis
+and design, event driven design, component-level design, data-structured centered, aspect oriented,
+function oriented, service oriented
+- [ ] Structural and behavioral models of software designs
+- [ ] Design patterns
+[Core-Tier2]
+- [ ] Relationships between requirements and designs: transformation of models, design of contracts, invariants
+- [ ] Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered,
+pipes-and-filters)
+- [ ] Refactoring designs using design patterns
+- [ ] The use of components in design: component selection, design, adaptation and assembly of components,
+components and patterns, components and objects (for example, building a GUI using a standard widget
+set)
+[Elective]
+- [ ] Internal design qualities, and models for them: efficiency and performance, redundancy and fault
+tolerance, traceability of requirements
+- [ ] External design qualities, and models for them: functionality, reliability, performance and efficiency,
+usability, maintainability, portability
+- [ ] Measurement and analysis of design quality
+- [ ] Tradeoffs between different aspects of quality
+- [ ] Application frameworks
+- [ ] Middleware: the object-oriented paradigm within middleware, object request brokers and marshalling,
+transaction processing monitors, workflow systems
+- [ ] Principles of secure design and coding (cross-reference IAS/Principles of Secure Design)
+    - [ ] Principle of least privilege
+    - [ ] Principle of fail-safe defaults
+    - [ ] Principle of psychological acceptability
+
+SE/Software Construction
+[2 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference
+IAS/Defensive Programming; SDF/Development Methods)
+    - [ ] Defensive coding practices
+    - [ ] Secure coding practices
+    - [ ] Using exception handling mechanisms to make programs more robust, fault-tolerant
+- [ ] Coding standards
+- [ ] Integration strategies
+- [ ] Development context: “green field” vs. existing code base
+    - [ ] Change impact analysis
+    - [ ] Change actualization
+[Elective]
+- [ ] Potential security problems in programs
+    - [ ] Buffer and other types of overflows
+    - [ ] Race conditions
+    - [ ] Improper initialization, including choice of privileges
+    - [ ] Checking input
+    - [ ] Assuming success and correctness
+    - [ ] Validating assumptions
+
+SE/Software Verification and Validation
+[4 Core-Tier2 hours]
+[Core-Tier2]
+- [ ] Verification and validation concepts
+- [ ] Inspections, reviews, audits
+- [ ] Testing types, including human computer interface, usability, reliability, security, conformance to
+specification (cross-reference IAS/Secure Software Engineering)
+- [ ] Testing fundamentals (cross-reference SDF/Development Methods)
+    - [ ] Unit, integration, validation, and system testing
+    - [ ] Test plan creation and test case generation
+    - [ ] Black-box and white-box testing techniques
+    - [ ] Regression testing and test automation
+- [ ] Defect tracking
+- [ ] Limitations of testing in particular domains, such as parallel or safety-critical systems
+[Elective]
+- [ ] Static approaches and dynamic approaches to verification
+- [ ] Test-driven development
+- [ ] Validation planning; documentation for validation
+- [ ] Object-oriented testing; systems testing
+- [ ] Verification and validation of non-code artifacts (documentation, help files, training materials)
+- [ ] Fault logging, fault tracking and technical support for such activities
+- [ ] Fault estimation and testing termination including defect seeding
+
+SE/Software Evolution
+[2 Core-Tier2 hour]
+- [ ] Software development in the context of large, pre-existing code bases
+    - [ ] Software change
+    - [ ] Concerns and concern location
+    - [ ] Refactoring
+- [ ] Software evolution
+- [ ] Characteristics of maintainable software
+- [ ] Reengineering systems
+- [ ] Software reuse
+    - [ ] Code segments
+    - [ ] Libraries and frameworks
+    - [ ] Components
+    - [ ] Product lines
+
+SE/Software Reliability
+[1 Core-Tier2]
+[Core-Tier2]
+- [ ] Software reliability engineering concepts
+- [ ] Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through
+Redundancy)
+- [ ] Fault lifecycle concepts and techniques
+[Elective]
+- [ ] Software reliability models
+- [ ] Software fault tolerance techniques and models
+- [ ] Software reliability engineering practices
+- [ ] Measurement-based analysis of software reliability
+
+SE/Formal Methods
+[Elective]
+- [ ] Role of formal specification and analysis techniques in the software development cycle
+- [ ] Program assertion languages and analysis approaches (including languages for writing and analyzing preand post-conditions, such as OCL, JML)
+- [ ] Formal approaches to software modeling and analysis
+    - [ ] Model checkers
+    - [ ] Model finders
+- [ ] Tools in support of formal methods
+
+SF/Computational Paradigms
+[3 Core-Tier1 hours]
+- [ ] Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;
+Datapath + Control + Memory)
+- [ ] Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,
+minimization, sum of product forms
+- [ ] Application-level sequential processing: single thread
+- [ ] Simple application-level parallel processing: request level (web services/client-server/distributed), single
+thread per server, multiple threads with multiple servers
+- [ ] Basic concept of pipelining, overlapped processing stages
+- [ ] Basic concept of scaling: going faster vs. handling larger problems
+
+Cross-reference NC/Introduction, OS/Operating Systems Principles
+[3 Core-Tier1 hours]
+- [ ] Programming abstractions, interfaces, use of libraries
+- [ ] Distinction between Application and OS services, Remote Procedure Call
+- [ ] Application-Virtual Machine Interaction
+- [ ] Reliability
+
+SF/State and State Machines
+[6 Core-Tier1 hours]
+- [ ] Digital vs. Analog/Discrete vs. Continuous Systems
+- [ ] Simple logic gates, logical expressions, Boolean logic simplification
+- [ ] Clocks, State, Sequencing
+- [ ] Combinational Logic, Sequential Logic, Registers, Memories
+- [ ] Computers and Network Protocols as examples of state machines
+
+SF/Parallelism
+[3 Core-Tier1 hours]
+- [ ] Sequential vs. parallel processing
+- [ ] Parallel programming vs. concurrent programming
+- [ ] Request parallelism vs. Task parallelism
+- [ ] Client-Server/Web Services, Thread (Fork-Join), Pipelining
+- [ ] Multicore architectures and hardware support for synchronization
+
+SF/Evaluation
+[3 Core-Tier1 hours]
+- [ ] Performance figures of merit
+- [ ] Workloads and representative benchmarks, and methods of collecting and analyzing performance figures of
+merit
+- [ ] CPI (Cycles per Instruction) equation as tool for understanding tradeoffs in the design of instruction sets,
+processor pipelines, and memory system organizations.
+- [ ] Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can
+
+SF/Resource Allocation and Scheduling
+[2 Core-Tier2 hours]
+- [ ] Kinds of resources (e.g., processor share, memory, disk, net bandwidth)
+- [ ] Kinds of scheduling (e.g., first-come, priority)
+- [ ] Advantages of fair scheduling, preemptive scheduling
+
+SF/Proximity
+[3 Core-Tier2 hours]
+- [ ] Speed of light and computers (one foot per nanosecond vs. one GHz clocks)
+- [ ] Latencies in computer systems: memory vs. disk latencies vs. across the network memory
+- [ ] Caches and the effects of spatial and temporal locality on performance in processors and systems
+- [ ] Caches and cache coherency in databases, operating systems, distributed systems, and computer
+architecture
+- [ ] Introduction into the processor memory hierarchy and the formula for average memory access time
+
+SF/Virtualization and Isolation
+[2 Core-Tier2 hours]
+- [ ] Rationale for protection and predictable performance
+- [ ] Levels of indirection, illustrated by virtual memory for managing physical memory resources
+- [ ] Methods for implementing virtual memory and virtual machines
+
+SF/Reliability through Redundancy
+[2 Core-Tier2 hours]
+- [ ] Distinction between bugs and faults
+- [ ] Redundancy through check and retry
+- [ ] Redundancy through redundant encoding (error correcting codes, CRC, FEC)
+- [ ] Duplication/mirroring/replicas
+- [ ] Other approaches to fault tolerance and availability
+
+SF/Quantitative Evaluation
+[Elective]
+- [ ] Analytical tools to guide quantitative evaluation
+- [ ] Order of magnitude analysis (Big-Oh notation)
+- [ ] Analysis of slow and fast paths of a system
+- [ ] Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)
+- [ ] Understanding layered systems, workloads, and platforms, their implications for performance, and the
+challenges they represent for evaluation
+- [ ] Microbenchmarking pitfalls
+
+SP/Social Context
+[1 Core-Tier1 hour, 2 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Social implications of computing in a networked world (cross-reference HCI/Foundations/social models;
+IAS/Fundamental Concepts/social issues)
+- [ ] Impact of social media on individualism, collectivism and culture.
+[Core-Tier2]
+- [ ] Growth and control of the Internet (cross-reference NC/Introduction/organization of the Internet)
+- [ ] Often referred to as the digital divide, differences in access to digital technology resources and its resulting
+ramifications for gender, class, ethnicity, geography, and/or underdeveloped countries.
+- [ ] Accessibility issues, including legal requirements
+- [ ] Context-aware computing (cross-reference HCI/Design for non-mouse interfaces/ ubiquitous and contextaware)
+
+SP/Analytical Tools
+[2 Core-Tier1 hours]
+- [ ] Ethical argumentation
+- [ ] Ethical theories and decision-making
+- [ ] Moral assumptions and values
+
+SP/Professional Ethics
+[2 Core-Tier1 hours, 2 Core-Tier2 hours]
+[Core-Tier1]
+- [ ] Community values and the laws by which we live
+- [ ] The nature of professionalism including care, attention and discipline, fiduciary responsibility, and
+mentoring
+- [ ] Keeping up-to-date as a computing professional in terms of familiarity, tools, skills, legal and professional
+framework as well as the ability to self-assess and progress in the computing field
+- [ ] Professional certification, codes of ethics, conduct, and practice, such as the ACM/IEEE-CS, SE, AITP,
+IFIP and international societies (cross-reference IAS/Fundamental Concepts/ethical issues)
+- [ ] Accountability, responsibility and liability (e.g. software correctness, reliability and safety, as well as
+ethical confidentiality of cybersecurity professionals)
+[Core-Tier2]
+- [ ] The role of the computing professional in public policy
+- [ ] Maintaining awareness of consequences
+- [ ] Ethical dissent and whistle-blowing
+- [ ] The relationship between regional culture and ethical dilemmas
+- [ ] Dealing with harassment and discrimination
+- [ ] Forms of professional credentialing
+- [ ] Acceptable use policies for computing in the workplace
+- [ ] Ergonomics and healthy computing environments
+- [ ] Time to market and cost considerations versus quality professional standards
+
+SP/Intellectual Property
+[2 Core-Tier1 hours]
+[Core-Tier1]
+- [ ] Philosophical foundations of intellectual property
+- [ ] Intellectual property rights (cross-reference IM/Information Storage and Retrieval/intellectual property and
+protection)
+- [ ] Intangible digital intellectual property (IDIP)
+- [ ] Legal foundations for intellectual property protection
+- [ ] Digital rights management
+- [ ] Copyrights, patents, trade secrets, trademarks
+- [ ] Plagiarism
+[Elective]
+- [ ] Foundations of the open source movement
+- [ ] Software piracy
+
+SP/Privacy and Civil Liberties
+[2 Core-Tier1 hours]
+[Core-Tier1]
+- [ ] Philosophical foundations of privacy rights (cross-reference IS/Fundamental Issues/philosophical issues)
+- [ ] Legal foundations of privacy protection
+- [ ] Privacy implications of widespread data collection for transactional databases, data warehouses,
+surveillance systems, and cloud computing (cross-reference IM/Database Systems/data independence;
+IM/Data Mining/data cleaning)
+- [ ] Ramifications of differential privacy
+- [ ] Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on
+privacy and anonymity)
+[Elective]
+- [ ] Privacy legislation in areas of practice
+- [ ] Civil liberties and cultural differences
+- [ ] Freedom of expression and its limitations
+
+SP/Professional Communication
+[1 Core-Tier1 hour]
+[Core-Tier1]
+- [ ] Reading, understanding and summarizing technical material, including source code and documentation
+- [ ] Writing effective technical documentation and materials
+- [ ] Dynamics of oral, written, and electronic team and group communication (cross-reference
+HCI/Collaboration and Communication/group communication; SE/Project Management/team participation)
+- [ ] Communicating professionally with stakeholders
+- [ ] Utilizing collaboration tools (cross-reference HCI/Collaboration and Communication/online communities;
+IS/Agents/collaborative agents)
+[Elective]
+- [ ] Dealing with cross-cultural environments (cross-reference HCI/User-Centered Design and Testing/crosscultural evaluation)
+- [ ] Tradeoffs of competing risks in software projects, such as technology, structure/process, quality, people,
+market and financial (cross-reference SE/Software Project Management/Risk)
+
+SP/Sustainability
+[1 Core-Tier1 hour, 1 Core-Tier2 hour]
+[Core-Tier1]
+- [ ] Being a sustainable practitioner by taking into consideration cultural and environmental impacts of
+implementation decisions (e.g. organizational policies, economic viability, and resource consumption).
+- [ ] Explore global social and environmental impacts of computer use and disposal (e-waste)
+[Core-Tier2]
+- [ ] Environmental impacts of design choices in specific areas such as algorithms, operating systems, networks,
+databases, or human-computer interaction (cross-reference SE/Software Evaluation/software evolution;
+HCI/Design-Oriented HCI/sustainability)
+[Elective]
+- [ ] Guidelines for sustainable design standards
+- [ ] Systemic effects of complex computer-mediated phenomena (e.g. telecommuting or web shopping)
+- [ ] Pervasive computing; information processing integrated into everyday objects and activities, such as smart
+energy systems, social networking and feedback systems to promote sustainable behavior, transportation,
+environmental monitoring, citizen science and activism.
+- [ ] Research on applications of computing to environmental issues, such as energy, pollution, resource usage,
+recycling and reuse, food management, farming and others.
+- [ ] The interdependence of the sustainability of software systems with social systems, including the knowledge
+and skills of its users, organizational processes and policies, and its societal context (e.g., market forces,
+government policies).
+
+SP/History
+[Elective]
+- [ ] Prehistory—the world before 1946
+- [ ] History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/
+history of computer architecture)
+- [ ] Pioneers of computing
+- [ ] History of the Internet
+
+SP/Economies of Computing
+[Elective]
+- [ ] Monopolies and their economic implications
+- [ ] Effect of skilled labor supply and demand on the quality of computing products
+- [ ] Pricing strategies in the computing domain
+- [ ] The phenomenon of outsourcing and off-shoring software development; impacts on employment and on
+economics
+- [ ] Consequences of globalization for the computer science profession
+- [ ] Differences in access to computing resources and the possible effects thereof
+- [ ] Cost/benefit analysis of jobs with considerations to manufacturing, hardware, software, and engineering
+implications
+- [ ] Cost estimates versus actual costs in relation to total costs
+- [ ] Entrepreneurship: prospects and pitfalls
+- [ ] Network effect or demand-side economies of scale
+- [ ] Use of engineering economics in dealing with finances
+
+SP/Security Policies, Laws and Computer Crimes
+[Elective]
+- [ ] Examples of computer crimes and legal redress for computer criminals (cross-reference IAS/Digital
+Forensics/rules of evidence)
+- [ ] Social engineering, identity theft and recovery (cross-reference HCI/Human Factors and Security/trust,
+privacy and deception)
+- [ ] Issues surrounding the misuse of access and breaches in security
+- [ ] Motivations and ramifications of cyber terrorism and criminal hacking, “cracking”
+- [ ] Effects of malware, such as viruses, worms and Trojan horses
+- [ ] Crime prevention strategies
+- [ ] Security policies (cross-reference IAS/Security Policy and Governance/policies)
