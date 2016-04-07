@@ -1077,8 +1077,8 @@ IS/Reasoning Under Uncertainty
 - [ ] Conditional Independence
 - [ ] Knowledge representations
     - [ ] Bayesian Networks
- Exact inference and its complexity
- Randomized sampling (Monte Carlo) methods (e.g. Gibbs sampling)
+        - [ ] Exact inference and its complexity
+        - [ ] Randomized sampling (Monte Carlo) methods (e.g. Gibbs sampling)
     - [ ] Markov Networks
     - [ ] Relational probability models
     - [ ] Hidden Markov Models
@@ -1122,7 +1122,7 @@ IS/Natural Language Processing
 - [ ] Examples of use: POS tagging and morphology
 - [ ] Information retrieval (Cross-reference IM/Information Storage and Retrieval)
     - [ ] Vector space model
- TF & IDF
+        - [ ] TF & IDF
     - [ ] Precision and recall
 - [ ] Information extraction
 - [ ] Language translation
@@ -1421,10 +1421,10 @@ PD/Communication and Coordination
     - [ ] Granularity of atomic accesses and updates, and the use of constructs such as critical sections or
 transactions to describe them
     - [ ] Mutual Exclusion using locks, semaphores, monitors, or related constructs
- Potential for liveness failures and deadlock (causes, conditions, prevention)
+        - [ ] Potential for liveness failures and deadlock (causes, conditions, prevention)
     - [ ] Composition
- Composing larger granularity atomic actions using synchronization
- Transactions, including optimistic and conservative approaches
+        - [ ] Composing larger granularity atomic actions using synchronization
+        - [ ] Transactions, including optimistic and conservative approaches
 [Elective]
 - [ ] Consensus
     - [ ] (Cyclic) barriers, counters, or related constructs
@@ -1486,8 +1486,8 @@ PD/Cloud Computing
     - [ ] Clusters, grids, and meshes
 - [ ] Cloud services
     - [ ] Infrastructure as a service
- Elasticity of resources
- Platform APIs
+        - [ ] Elasticity of resources
+        - [ ] Platform APIs
     - [ ] Software as a service
     - [ ] Security
     - [ ] Cost management

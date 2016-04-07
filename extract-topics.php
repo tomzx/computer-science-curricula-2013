@@ -28,6 +28,7 @@ foreach ($lines as $lineNumber =>$line) {
 
 		$line = preg_replace('/^• /', '- [ ] ', $line);
 		$line = preg_replace('/^o /', '    - [ ] ', $line);
+		$line = preg_replace('/^ /', '        - [ ] ', $line);
 		$output .= $line.PHP_EOL;
 	}
 }
